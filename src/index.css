@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+ :root{
+--main-color:#efefef;
+--primary-color : #1976d2;
+ }
+ body{
+  background-color: var(--main-color);
+ }
+  input:focus{
+    outline: none;
+  }
+  a{
+    text-decoration: none;
+  }

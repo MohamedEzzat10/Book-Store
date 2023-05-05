@@ -1,0 +1,53 @@
+.login_wrapper{
+    width: 100%;
+    height: calc(100Vh - 250px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    flex-direction: column;
+}
+.form_title{
+    font-size: 27px;
+    color: teal;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    
+    flex-direction: column;
+    width: 340px;
+    position: relative;
+}
+form input{
+    border: 2px solid teal;
+    width: 100%;
+    font-size: 21px;
+    padding:  10px;
+    margin-bottom: 15px;
+}
+form button{
+    background: var(--primary-color);
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+}
+ 
+.form_footer{
+    font-size: 21px ;
+    font-weight: 600;
+}
+.show_password,.hide_password{
+    position: absolute;
+    top: 73px;
+    right: 10px;
+    font-size: 21px;
+    color: teal;
+    cursor: pointer
+}

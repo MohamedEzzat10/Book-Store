@@ -1,0 +1,18 @@
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(189, 234, 23);
+}
+.rating i{
+    margin: 0 2px;
+}
+.reviews :first-child{
+    margin: 0 10px;
+    font-weight: 500;
+}
+.reviews:last-child{
+    color: gray;
+    font: 18px;
+    font-weight: 600;
+}
